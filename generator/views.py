@@ -5,7 +5,7 @@ import random
 # Create your views here.
 
 def home(request):
-	return render(request, 'generator/home.html' )
+	return render(request, 'generator/home.html' ) #Функция, которая при вызове возвращает домашнюю страницу
 
 def password(request):
 	

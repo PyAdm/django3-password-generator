@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'generator',
+    'generator', #Добавлено, что проект generator тоже подлежит запуску
 ]
 
 MIDDLEWARE = [
